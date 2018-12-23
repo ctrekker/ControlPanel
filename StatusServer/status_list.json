@@ -1,0 +1,7 @@
+{
+
+  "bigserver": {
+    "script": "./computer_details.js",
+    "refresh": 1000
+  }
+}

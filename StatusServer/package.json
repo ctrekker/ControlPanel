@@ -1,0 +1,7 @@
+{
+  "name": "status-server",
+  "version": "1.0.0",
+  "dependencies": {
+    "cpu-stat": "^2.0.1"
+  }
+}
