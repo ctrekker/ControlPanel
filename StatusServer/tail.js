@@ -7,11 +7,11 @@ module.exports = function(args, callback) {
             "indicators": [
                 {
                     "type": "console",
-                    "lines": lines.split('\r\n')
+                    "lines": lines.split('\n')
                 }
             ]
         });
     }).catch(function(err) {
-
+        console.log(err);
     });
 };
