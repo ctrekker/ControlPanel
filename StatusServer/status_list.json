@@ -3,5 +3,12 @@
   "bigserver": {
     "script": "./computer_details.js",
     "refresh": 1000
+  },
+  "aquatic_server": {
+    "script": "./check_port.js",
+    "args": [
+      3000
+    ],
+    "refresh": 3000
   }
 }

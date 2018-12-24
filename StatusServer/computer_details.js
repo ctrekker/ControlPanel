@@ -1,5 +1,5 @@
 var cpuStat = require('cpu-stat');
-module.exports = function(callback) {
+module.exports = function(args, callback) {
     cpuStat.usagePercent({
         sampleMs: 1000
     },

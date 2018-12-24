@@ -16,7 +16,7 @@ for(var i=0; i<status_items.length; i++) {
 var updateStatusCallbacks = [];
 function updateStatus(name, status_item) {
     return function() {
-        require(status_item.script)(function(status_packet) {
+        require(status_item.script)(status_item.args, function(status_packet) {
             status_packet['name'] = name;
             for(var cid in updateStatusCallbacks) {
                 updateStatusCallbacks[cid](status_packet);
