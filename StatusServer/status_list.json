@@ -10,5 +10,13 @@
       25565
     ],
     "refresh": 3000
+  },
+  "IntradayDownloader": {
+    "script": "./tail.js",
+    "args": [
+      "~/DataAnalytics/IntradayDownloader/latest.log",
+      5
+    ],
+    "refresh": 500
   }
 }

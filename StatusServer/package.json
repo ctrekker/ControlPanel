@@ -2,6 +2,7 @@
   "name": "status-server",
   "version": "1.0.0",
   "dependencies": {
-    "cpu-stat": "^2.0.1"
+    "cpu-stat": "^2.0.1",
+    "read-last-lines": "^1.6.0"
   }
 }
