@@ -7,7 +7,7 @@
   "aquatic_server": {
     "script": "./check_port.js",
     "args": [
-      3000
+      25565
     ],
     "refresh": 3000
   }
