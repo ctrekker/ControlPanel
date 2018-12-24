@@ -13,7 +13,7 @@
   "IntradayDownloader": {
     "script": "./tail.js",
     "args": [
-      "latest.log",
+      "~/DataAnalytics/IntradayDownloader/latest.log",
       5
     ],
     "refresh": 500
