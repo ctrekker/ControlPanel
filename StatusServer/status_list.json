@@ -1,5 +1,4 @@
 {
-
   "bigserver": {
     "script": "./computer_details.js",
     "refresh": 1000
@@ -14,7 +13,7 @@
   "IntradayDownloader": {
     "script": "./tail.js",
     "args": [
-      "~/DataAnalytics/IntradayDownloader/latest.log",
+      "latest.log",
       5
     ],
     "refresh": 500
